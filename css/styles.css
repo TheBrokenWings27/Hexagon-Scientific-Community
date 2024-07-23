@@ -53,13 +53,17 @@
   nav{
     position: fixed;
     width: 100%;
+    
     transition: background-color 0.3s, box-shadow 0.3s;
     z-index: 1000;
   }
 
+  .navbar.transparent {
+    background: rgba(255, 255, 255, 0); /* Fully transparent */
+    transition: background 0.3s ease; /* Smooth transition effect */
+}
 .navbar.scrolled {
-    background-color: rgba(0, 0, 0, 0.8);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: #eefdfe; /* Solid white background */
 }
   .clubname {
     margin-left: 10px;
