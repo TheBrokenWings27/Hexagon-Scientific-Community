@@ -9,7 +9,7 @@ function showSidebar(){
   $(document).ready(function() {
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
-        if (scroll > 300) {
+        if (scroll > 50) {
             $("#navbar").removeClass("transparent").addClass("scrolled");
         } else {
             $("#navbar").removeClass("scrolled").addClass("transparent");
