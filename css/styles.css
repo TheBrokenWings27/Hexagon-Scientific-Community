@@ -136,7 +136,9 @@
     display: none; 
     
   }
-
+.logo {
+  margin-left: 20px;
+}
 
 
   /*                                                          hero
@@ -287,6 +289,9 @@
 }
 .map h1{
   text-align: center;
+}
+.newletter{
+  margin-top: auto;
 }
 @media(max-width: 900px){
  .lastpage {
