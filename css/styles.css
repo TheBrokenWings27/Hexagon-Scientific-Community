@@ -106,7 +106,6 @@
     height: 450px;
     background-color: transparent;
     width: 100%;
-    background-color: #eefdfe;
     list-style: none;
     display: none;
     flex-direction: column;
@@ -220,7 +219,6 @@
 
 
 
-
                                                  /* 
                                                                                                     
                                                  secondpage 
@@ -234,7 +232,7 @@
   justify-content: space-between;
   padding: 20px;
   border-radius: 10px;
-  width: 90%;
+  width: 100%;
 }
 .imageabout{
   width: 100%;
