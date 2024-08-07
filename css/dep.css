@@ -139,10 +139,14 @@ nav li:last-child{
 
 
 
-/*                                                          hero
+/*                                                          firstpage
 */
-
-
+.firstpage {
+  min-height: 100vh;
+}
+.firstpage h1{
+ text-align: center;
+}
 
 
 
